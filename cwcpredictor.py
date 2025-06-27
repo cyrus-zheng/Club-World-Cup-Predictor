@@ -3,8 +3,8 @@ import numpy as np
 from scipy.stats import poisson
 
 # Load datasets
-home = pd.read_csv("data/palmeiras.csv")
-away = pd.read_csv("data/botafogo.csv")
+home = pd.read_csv("data/benfica.csv")
+away = pd.read_csv("data/chelsea.csv")
 matchup = pd.read_csv("data/matchup.csv")
 
 # Extract home/away team names
